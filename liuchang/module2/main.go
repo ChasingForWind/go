@@ -55,6 +55,6 @@ func main() {
 	mux.HandleFunc("healthz", healthz)
 
 	if err := http.ListenAndServe("localhost:8080", mux); err != nil {
-		log.Fatal("not start 第二周作业 ,%s \n ", err.Error())
+		log.Fatal("not start module2 ,%s \n ", err.Error())
 	}
 }
